@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/charmbracelet/bubbles v0.15.0
-	github.com/charmbracelet/bubbletea v0.24.0
+	github.com/charmbracelet/bubbletea v0.24.1
 	github.com/charmbracelet/lipgloss v0.7.1
 	github.com/charmbracelet/x/exp/teatest v0.0.0-20230508155401-2bd6fa14c46a
 	github.com/muesli/termenv v0.15.1
