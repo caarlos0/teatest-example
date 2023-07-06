@@ -7,6 +7,13 @@ updates:
       time: "08:00"
     labels:
       - "dependencies"
+    commit-message:
+      prefix: "feat"
+      include: "scope"
+    groups:
+      gomod:
+        patterns:
+          - "*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -14,3 +21,10 @@ updates:
       time: "08:00"
     labels:
       - "dependencies"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
