@@ -7,7 +7,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.3
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/charmbracelet/x/exp/teatest v0.0.0-20240503123951-c8de846a2ab5
-	github.com/muesli/termenv v0.15.2
+	github.com/muesli/termenv v0.16.0
 )
 
 require (
